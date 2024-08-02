@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pokédex interactiva para explorar Pokémon de diferentes regiones.">
+    <meta name="author" content="nsandr3s">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Cabecera de la página -->
+    <header>
+        <h1>Pokédex</h1>
+        <input type="text" id="buscar" placeholder="Buscar Pokémon">
+        <select id="filtroRegiones">
+            <option value="">Todas las regiones</option>
+            <option value="kanto">Kanto</option>
+            <option value="johto">Johto</option>
+            <option value="hoenn">Hoenn</option>
+            <option value="sinnoh">Sinnoh</option>
+            <option value="unova">Unova</option>
+            <option value="kalos">Kalos</option>
+            <option value="alola">Alola</option>
+            <option value="galar">Galar</option>
+        </select>
+    </header>
+
+    <!-- Contenedor para mostrar las cartas de Pokémon -->
+    <main id="pokedex">
+        <!-- Aquí se agregarán los Pokémon mediante JavaScript -->
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
