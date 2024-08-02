@@ -35,7 +35,7 @@ Este proyecto es una **Pokédex Interactiva** que permite explorar Pokémon de d
 2. Navega a la carpeta del proyecto:
 
     ```bash
-    cd pokedex
+    cd PokedexAPI
     ```
 
 
